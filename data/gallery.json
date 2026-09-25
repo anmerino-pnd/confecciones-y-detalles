@@ -2,113 +2,113 @@
   {
     "id": "foto-01",
     "src": "assets/images/gallery/foto-01.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Vestido de noche strapless color rosa fucsia",
+    "title": "Vestido de Noche Fucsia",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-02",
     "src": "assets/images/gallery/foto-02.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
+    "alt": "Vestido largo verde esmeralda con aplicaciones florales",
+    "title": "Vestido Esmeralda Floral",
     "category": "vestidos-noche"
   },
   {
     "id": "foto-03",
     "src": "assets/images/gallery/foto-03.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "otros"
+    "alt": "Vestido negro corte sirena elegante",
+    "title": "Vestido Sirena Negro",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-04",
     "src": "assets/images/gallery/foto-04.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Vestidos color coral para damas",
+    "title": "Vestidos para Damas",
+    "category": "damas"
   },
   {
     "id": "foto-05",
     "src": "assets/images/gallery/foto-05.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
+    "alt": "Vestido verde oscuro con encaje y transparencias",
+    "title": "Vestido de Noche Verde",
     "category": "vestidos-noche"
   },
   {
     "id": "foto-06",
     "src": "assets/images/gallery/foto-06.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "otros"
+    "alt": "Vestido color magenta con mangas de encaje",
+    "title": "Vestido de Noche Magenta",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-07",
     "src": "assets/images/gallery/foto-07.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Vestido amarillo vibrante corte sirena strapless",
+    "title": "Vestido Sirena Amarillo",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-08",
     "src": "assets/images/gallery/foto-08.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
+    "alt": "Vestido azul claro con pedrería en el busto",
+    "title": "Vestido de Gala Azul",
     "category": "vestidos-noche"
   },
   {
     "id": "foto-09",
     "src": "assets/images/gallery/foto-09.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "otros"
+    "alt": "Vestido strapless verde bandera con detalle de moño",
+    "title": "Vestido Esmeralda con Moño",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-10",
     "src": "assets/images/gallery/foto-10.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Vestido strapless color rojo oscuro",
+    "title": "Vestido de Noche Rojo",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-11",
     "src": "assets/images/gallery/foto-11.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
+    "alt": "Vestido color vino con escote halter",
+    "title": "Vestido de Noche Tinto",
     "category": "vestidos-noche"
   },
   {
     "id": "foto-12",
     "src": "assets/images/gallery/foto-12.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "otros"
+    "alt": "Vestido elegante estampado en negro y dorado",
+    "title": "Vestido Elegante Dorado",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-13",
     "src": "assets/images/gallery/foto-13.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Vestido de gala azul marino con volumen",
+    "title": "Vestido de Gala Azul Marino",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-14",
     "src": "assets/images/gallery/foto-14.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
+    "alt": "Vestido tinto de satín con abertura en la pierna",
+    "title": "Vestido Tinto con Abertura",
     "category": "vestidos-noche"
   },
   {
     "id": "foto-15",
     "src": "assets/images/gallery/foto-15.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "otros"
+    "alt": "Vestido rojo profundo con encaje hombros descubiertos",
+    "title": "Vestido de Encaje Rojo",
+    "category": "vestidos-noche"
   },
   {
     "id": "foto-16",
     "src": "assets/images/gallery/foto-16.jpg",
-    "alt": "Confección a medida",
-    "title": "Diseño a medida",
-    "category": "vestidos"
+    "alt": "Conjunto elegante de pantalón blanco y blusa de encaje",
+    "title": "Conjunto Elegante Blanco",
+    "category": "ropa-casual"
   }
 ]
