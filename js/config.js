@@ -1,4 +1,4 @@
 const BUSINESS_CONFIG = {
-  whatsappNumber: "526620000000", // Placeholder, will be replaced with real number
+  whatsappNumber: "526622823483", // Placeholder, will be replaced with real number
   whatsappMessage: "Hola, encontré Confecciones y Detalles en su página y me gustaría preguntar por..."
 };
