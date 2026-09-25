@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confecciones y Detalles | Hermosillo, Sonora</title>
+  <meta name="description" content="Confecciones, arreglos y modificaciones de prendas en Hermosillo, Sonora.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <a href="#inicio" class="logo">Confecciones & Detalles</a>
+      
+      <button class="menu-toggle" aria-label="Abrir menú" id="menu-toggle">
+        <span class="hamburger"></span>
+      </button>
+
+      <nav class="nav" id="main-nav">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#galeria" class="nav-link">Galería</a></li>
+          <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
+          <li><a href="#contacto" class="nav-link btn-nav">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-subtitle">Desde 2015</p>
+          <h1 class="hero-title">Trabajo de confección y arreglos hecho con dedicación.</h1>
+          <p class="hero-description">En Hermosillo, Sonora.</p>
+          <div class="hero-actions">
+            <a href="#galeria" class="btn btn-outline">Ver nuestro trabajo</a>
+            <a href="#" class="btn btn-primary whatsapp-btn">Escríbenos por WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <span>Fotografía del negocio o trabajo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="intro">
+      <div class="container intro-container">
+        <h2 class="section-title">Hecho con dedicación</h2>
+        <p class="section-text">
+          Cada prenda tiene una necesidad diferente. Desde pequeños arreglos hasta prendas confeccionadas desde cero, Confecciones y Detalles trabaja cada pieza con atención al detalle.
+        </p>
+      </div>
+    </section>
+
+    <section id="servicios" class="services">
+      <div class="container services-container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+          <div class="service-category">
+            <h3 class="service-category-title">Arreglos y ajustes</h3>
+            <ul class="service-list">
+              <li>Bastillas</li>
+              <li>Ajustes y reducción de tallas</li>
+              <li>Parches</li>
+              <li>Cambio de cierres</li>
+              <li>Reparaciones y modificaciones</li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3 class="service-category-title">Confección</h3>
+            <ul class="service-list">
+              <li>Blusas</li>
+              <li>Camisas</li>
+              <li>Pantalones</li>
+              <li>Vestidos casuales</li>
+              <li>Vestidos de noche (sumestichado)</li>
+            </ul>
+          </div>
+          <div class="service-category">
+            <h3 class="service-category-title">Vestidos especiales</h3>
+            <ul class="service-list">
+              <li>XV años</li>
+              <li>Dama</li>
+              <li>Novia</li>
+              <li>Ocasiones especiales</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="about">
+      <div class="container about-container">
+        <div class="about-content">
+          <h2 class="section-title">Desde 2015, haciendo realidad cada detalle.</h2>
+          <p class="section-text">
+            Confecciones y Detalles comenzó en 2015 con el objetivo de brindar a cada cliente la prenda perfecta, ya sea a través de ajustes precisos o la confección de diseños a medida. Nuestra experiencia y dedicación aseguran acabados de calidad.
+          </p>
+        </div>
+        <div class="about-image">
+           <div class="image-placeholder">
+            <span>Fotografía de la dueña trabajando</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="gallery">
+      <div class="container gallery-container">
+        <h2 class="section-title">Nuestro Trabajo</h2>
+        <div class="gallery-filters" id="gallery-filters">
+          <!-- Filtros generados por JS -->
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <!-- Imágenes generadas por JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="location">
+      <div class="container location-container">
+        <div class="location-content">
+          <h2 class="section-title">Encuéntranos en Hermosillo</h2>
+          <p class="location-address">
+            Confecciones y Detalles<br>
+            Hermosillo, Sonora
+          </p>
+          <a href="#" class="btn btn-outline" id="map-btn">Cómo llegar</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="cta">
+      <div class="container cta-container">
+        <h2 class="cta-title">¿Quieres coser una idea?</h2>
+        <a href="#" class="btn btn-primary whatsapp-btn">Escríbenos por WhatsApp</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <p class="footer-logo">Confecciones y Detalles</p>
+        <p class="footer-location">Hermosillo, Sonora</p>
+        <p class="footer-contact"><a href="#" class="whatsapp-btn">WhatsApp</a></p>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; <span id="current-year"></span> Confecciones y Detalles</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+    <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Imagen ampliada">
+    </div>
+    <button class="lightbox-next" aria-label="Siguiente">&#10095;</button>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

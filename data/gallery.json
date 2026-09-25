@@ -1,0 +1,16 @@
+[
+  {
+    "id": "vestido-noche-001",
+    "src": "assets/images/gallery/placeholder.jpg",
+    "alt": "Vestido de noche confeccionado por Confecciones y Detalles",
+    "title": "Vestido de noche",
+    "category": "vestidos-noche"
+  },
+  {
+    "id": "ajuste-001",
+    "src": "assets/images/gallery/placeholder.jpg",
+    "alt": "Prenda ajustada por Confecciones y Detalles",
+    "title": "Ajuste de prenda",
+    "category": "arreglos"
+  }
+]

@@ -1,0 +1,30 @@
+:root {
+  /* Paleta inicial propuesta en SPEC.md */
+  --color-background: #FAF8F5;
+  --color-surface: #EFE8E0;
+  --color-text: #292624;
+  --color-primary: #7A5C61;
+  --color-secondary: #B89B7A;
+  --color-white: #FFFFFF;
+  --color-border: #DDD3CA;
+
+  /* Tipografías */
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+
+  /* Bordes y sombras */
+  --radius: 8px;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+
+  /* Transiciones */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}
