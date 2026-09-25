@@ -8,7 +8,8 @@
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <!-- Se añaden pesos ligeros, itálicas y variaciones para el look editorial -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
@@ -20,7 +21,7 @@
 
   <header class="header">
     <div class="container header-container">
-      <a href="#inicio" class="logo">Confecciones & Detalles</a>
+      <a href="#inicio" class="logo">Confecciones <em>&</em> Detalles</a>
       
       <button class="menu-toggle" aria-label="Abrir menú" id="menu-toggle">
         <span class="hamburger"></span>
@@ -43,12 +44,11 @@
     <section id="inicio" class="hero">
       <div class="container hero-container">
         <div class="hero-content">
-          <p class="hero-subtitle">Desde 2015</p>
-          <h1 class="hero-title">Trabajo de confección y arreglos hecho con dedicación.</h1>
-          <p class="hero-description">En Hermosillo, Sonora.</p>
+          <p class="editorial-meta">Est. 2015 &mdash; Hermosillo, Son.</p>
+          <h1 class="hero-title">Confección a medida <br> y <em>arreglos</em> con dedicación.</h1>
           <div class="hero-actions">
-            <a href="#galeria" class="btn btn-outline">Ver nuestro trabajo</a>
-            <a href="#" class="btn btn-primary whatsapp-btn">Escríbenos por WhatsApp</a>
+            <a href="#galeria" class="btn btn-primary">Descubrir portafolio</a>
+            <a href="#" class="btn btn-outline whatsapp-btn">Agendar cita por WhatsApp</a>
           </div>
         </div>
         <div class="hero-image">
@@ -60,45 +60,49 @@
     </section>
 
     <section id="intro" class="intro">
-      <div class="container intro-container">
-        <h2 class="section-title">Hecho con dedicación</h2>
-        <p class="section-text">
-          Cada prenda tiene una necesidad diferente. Desde pequeños arreglos hasta prendas confeccionadas desde cero, Confecciones y Detalles trabaja cada pieza con atención al detalle.
+      <div class="container intro-container text-center">
+        <p class="editorial-meta">Nuestra filosofía</p>
+        <h2 class="section-title">Cada prenda <em>cuenta</em> una historia.</h2>
+        <p class="section-text mx-auto">
+          Desde pequeños detalles hasta piezas confeccionadas desde cero, trabajamos cada tejido con la atención y el cuidado que merece tu estilo personal.
         </p>
       </div>
     </section>
 
     <section id="servicios" class="services">
       <div class="container services-container">
-        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-header">
+          <h2 class="section-title"><em>Nuestros</em> Servicios</h2>
+          <p class="editorial-meta">Especialidades del atelier</p>
+        </div>
+        
         <div class="services-grid">
           <div class="service-category">
-            <h3 class="service-category-title">Arreglos y ajustes</h3>
+            <h3 class="service-category-title">Arreglos <em>&</em> ajustes</h3>
             <ul class="service-list">
-              <li>Bastillas</li>
+              <li>Bastillas precisas</li>
               <li>Ajustes y reducción de tallas</li>
-              <li>Parches</li>
+              <li>Parches invisibles</li>
               <li>Cambio de cierres</li>
-              <li>Reparaciones y modificaciones</li>
+              <li>Modificaciones de estructura</li>
             </ul>
           </div>
           <div class="service-category">
-            <h3 class="service-category-title">Confección</h3>
+            <h3 class="service-category-title">Confección <em>a medida</em></h3>
             <ul class="service-list">
-              <li>Blusas</li>
-              <li>Camisas</li>
-              <li>Pantalones</li>
+              <li>Blusas y camisas</li>
+              <li>Pantalones sastre</li>
               <li>Vestidos casuales</li>
-              <li>Vestidos de noche (sumestichado)</li>
+              <li>Vestidos de noche <em>(sumestichado)</em></li>
             </ul>
           </div>
           <div class="service-category">
-            <h3 class="service-category-title">Vestidos especiales</h3>
+            <h3 class="service-category-title">Ocasiones <em>especiales</em></h3>
             <ul class="service-list">
-              <li>XV años</li>
-              <li>Dama</li>
-              <li>Novia</li>
-              <li>Ocasiones especiales</li>
+              <li>Vestidos de XV años</li>
+              <li>Vestidos para Damas</li>
+              <li>Vestidos de Novia</li>
+              <li>Eventos de gala</li>
             </ul>
           </div>
         </div>
@@ -107,23 +111,28 @@
 
     <section id="nosotros" class="about">
       <div class="container about-container">
-        <div class="about-content">
-          <h2 class="section-title">Desde 2015, haciendo realidad cada detalle.</h2>
-          <p class="section-text">
-            Confecciones y Detalles comenzó en 2015 con el objetivo de brindar a cada cliente la prenda perfecta, ya sea a través de ajustes precisos o la confección de diseños a medida. Nuestra experiencia y dedicación aseguran acabados de calidad.
-          </p>
-        </div>
         <div class="about-image">
-           <div class="image-placeholder">
+           <div class="image-placeholder portrait">
             <span>Fotografía de la dueña trabajando</span>
           </div>
+        </div>
+        <div class="about-content">
+          <p class="editorial-meta">Nuestra historia</p>
+          <h2 class="section-title">Haciendo <em>realidad</em> cada detalle desde 2015.</h2>
+          <p class="section-text">
+            Comenzamos con un objetivo claro: brindar a cada cliente la prenda perfecta con un ajuste impecable. Nuestra experiencia y dedicación aseguran acabados de alta calidad en cada costura, respetando la estructura y caída natural de la tela.
+          </p>
         </div>
       </div>
     </section>
 
     <section id="galeria" class="gallery">
       <div class="container gallery-container">
-        <h2 class="section-title">Nuestro Trabajo</h2>
+        <div class="gallery-header text-center">
+          <h2 class="section-title"><em>Catálogo</em> de Trabajos</h2>
+          <p class="editorial-meta">Explora nuestras piezas recientes</p>
+        </div>
+        
         <div class="gallery-filters" id="gallery-filters">
           <!-- Filtros generados por JS -->
         </div>
@@ -134,21 +143,22 @@
     </section>
 
     <section id="ubicacion" class="location">
-      <div class="container location-container">
-        <div class="location-content">
-          <h2 class="section-title">Encuéntranos en Hermosillo</h2>
-          <p class="location-address">
-            Confecciones y Detalles<br>
-            Hermosillo, Sonora
-          </p>
-          <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="map-btn">Cómo llegar</a>
+      <div class="container location-container text-center">
+        <h2 class="section-title"><em>Encuéntranos</em> en Hermosillo</h2>
+        <p class="location-address">
+          Confecciones y Detalles<br>
+          Sonora, México
+        </p>
+        <div class="location-actions">
+           <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="map-btn">Ver en Google Maps</a>
         </div>
       </div>
     </section>
 
     <section id="contacto" class="cta">
       <div class="container cta-container">
-        <h2 class="cta-title">¿Quieres coser una idea?</h2>
+        <p class="editorial-meta">Hablemos de tu proyecto</p>
+        <h2 class="cta-title">¿Tienes una prenda <em>en mente?</em></h2>
         <a href="#" class="btn btn-primary whatsapp-btn">Escríbenos por WhatsApp</a>
       </div>
     </section>
@@ -157,14 +167,18 @@
 
   <footer class="footer">
     <div class="container footer-container">
-      <div class="footer-info">
-        <p class="footer-logo">Confecciones y Detalles</p>
-        <p class="footer-location">Hermosillo, Sonora</p>
-        <p class="footer-contact"><a href="#" class="whatsapp-btn">WhatsApp</a></p>
+      <div class="footer-brand">
+        <p class="footer-logo">Confecciones <em>&</em> Detalles</p>
+        <p class="footer-meta">Estudio de confección y arreglos. Hermosillo, Sonora.</p>
       </div>
-      <div class="footer-copyright">
-        <p>&copy; <span id="current-year"></span> Confecciones y Detalles</p>
+      <div class="footer-links">
+        <p class="editorial-meta mb-2">Contacto</p>
+        <a href="#" class="footer-link whatsapp-btn">WhatsApp</a><br>
+        <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" class="footer-link">Ubicación</a>
       </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year"></span> Confecciones y Detalles. Todos los derechos reservados.</p>
     </div>
   </footer>
 

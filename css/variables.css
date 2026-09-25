@@ -1,12 +1,14 @@
 :root {
-  /* Paleta inicial propuesta en SPEC.md */
-  --color-background: #FAF8F5;
-  --color-surface: #EFE8E0;
-  --color-text: #292624;
-  --color-primary: #7A5C61;
-  --color-secondary: #B89B7A;
+  /* Paleta Editorial / Atelier (Minimalista, Alto Contraste) */
+  --color-background: #FDFBF7; /* Off-white cálido, como papel fino */
+  --color-surface: #F4EFEA;    /* Beige muy sutil para destacar secciones */
+  --color-text: #1A1817;       /* Casi negro, máxima legibilidad y elegancia */
+  --color-text-light: #59534E; /* Gris oscuro para textos secundarios */
+  
+  --color-primary: #1A1817;    /* Botones y acentos oscuros (estilo fashion) */
+  --color-secondary: #8C8074;  /* Taupe cálido para detalles finos */
   --color-white: #FFFFFF;
-  --color-border: #DDD3CA;
+  --color-border: #E8E2DA;     /* Bordes delicados */
 
   /* Tipografías */
   --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
@@ -14,17 +16,17 @@
 
   /* Spacing */
   --spacing-xs: 0.5rem;
-  --spacing-sm: 1rem;
-  --spacing-md: 2rem;
-  --spacing-lg: 4rem;
-  --spacing-xl: 6rem;
+  --spacing-sm: 1.5rem;
+  --spacing-md: 3rem;
+  --spacing-lg: 5rem;
+  --spacing-xl: 8rem;
 
-  /* Bordes y sombras */
-  --radius: 8px;
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  /* Bordes y sombras (sin esquinas redondeadas para look high-end) */
+  --radius: 0px; 
+  --shadow-sm: 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-md: 0 10px 30px rgba(0,0,0,0.06);
 
   /* Transiciones */
-  --transition-fast: 0.2s ease;
-  --transition-normal: 0.3s ease;
+  --transition-fast: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }

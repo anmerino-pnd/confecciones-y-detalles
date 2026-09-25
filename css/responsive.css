@@ -2,32 +2,44 @@
 @media (min-width: 768px) {
   .hero-container {
     grid-template-columns: 1fr 1fr;
+    gap: 4rem;
   }
 
-  .about-container,
-  .location-container {
-    grid-template-columns: 1fr 1fr;
+  /* Para alternar orden en escritorio (Texto izquierda, Foto derecha en Hero, pero Foto Izquierda, Texto Derecha en About) */
+  .about-container {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 6rem;
   }
 
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 
   .hero-title {
-    font-size: 3.5rem;
+    font-size: 5rem;
+  }
+  
+  .section-title {
+    font-size: 4rem;
+  }
+  
+  .cta-title {
+    font-size: 5.5rem;
   }
 
   .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: left;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+  
+  .footer-links {
+    text-align: right;
   }
 
-  .footer-info {
+  .hero-actions {
     display: flex;
-    gap: var(--spacing-md);
-    align-items: center;
+    gap: 1rem;
   }
 }
 
@@ -39,12 +51,13 @@
   .nav {
     display: none;
     position: absolute;
-    top: 70px;
+    top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--color-white);
+    background-color: rgba(253, 251, 247, 0.98);
+    backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-border);
-    padding: var(--spacing-sm);
+    padding: var(--spacing-sm) 0;
   }
 
   .nav.active {
@@ -53,39 +66,22 @@
 
   .nav-list {
     flex-direction: column;
-    align-items: stretch;
-    gap: 0;
-  }
-
-  .nav-list li {
-    text-align: center;
-    padding: var(--spacing-sm) 0;
-    border-bottom: 1px solid var(--color-border);
-  }
-
-  .nav-list li:last-child {
-    border-bottom: none;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .btn-nav {
-    display: block;
-    background-color: transparent;
-    color: var(--color-text);
+    border: none;
     padding: 0;
-  }
-
-  .btn-nav:hover {
-    background-color: transparent;
-    color: var(--color-primary);
   }
 
   .gallery-filters {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 10px;
-    /* Hide scrollbar for Chrome, Safari and Opera */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    justify-content: flex-start;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   
   .gallery-filters::-webkit-scrollbar {
@@ -94,11 +90,24 @@
 
   .filter-btn {
     flex-shrink: 0;
+    padding: 0.5rem 1rem;
   }
   
   .hero-actions {
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-sm);
+    gap: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+  }
+  
+  .cta-title {
+    font-size: 3rem;
   }
 }
