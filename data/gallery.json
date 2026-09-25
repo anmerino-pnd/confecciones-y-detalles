@@ -1,16 +1,114 @@
 [
   {
-    "id": "vestido-noche-001",
-    "src": "assets/images/gallery/placeholder.jpg",
-    "alt": "Vestido de noche confeccionado por Confecciones y Detalles",
-    "title": "Vestido de noche",
+    "id": "foto-01",
+    "src": "assets/images/gallery/foto-01.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
+  },
+  {
+    "id": "foto-02",
+    "src": "assets/images/gallery/foto-02.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
     "category": "vestidos-noche"
   },
   {
-    "id": "ajuste-001",
-    "src": "assets/images/gallery/placeholder.jpg",
-    "alt": "Prenda ajustada por Confecciones y Detalles",
-    "title": "Ajuste de prenda",
-    "category": "arreglos"
+    "id": "foto-03",
+    "src": "assets/images/gallery/foto-03.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "otros"
+  },
+  {
+    "id": "foto-04",
+    "src": "assets/images/gallery/foto-04.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
+  },
+  {
+    "id": "foto-05",
+    "src": "assets/images/gallery/foto-05.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos-noche"
+  },
+  {
+    "id": "foto-06",
+    "src": "assets/images/gallery/foto-06.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "otros"
+  },
+  {
+    "id": "foto-07",
+    "src": "assets/images/gallery/foto-07.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
+  },
+  {
+    "id": "foto-08",
+    "src": "assets/images/gallery/foto-08.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos-noche"
+  },
+  {
+    "id": "foto-09",
+    "src": "assets/images/gallery/foto-09.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "otros"
+  },
+  {
+    "id": "foto-10",
+    "src": "assets/images/gallery/foto-10.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
+  },
+  {
+    "id": "foto-11",
+    "src": "assets/images/gallery/foto-11.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos-noche"
+  },
+  {
+    "id": "foto-12",
+    "src": "assets/images/gallery/foto-12.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "otros"
+  },
+  {
+    "id": "foto-13",
+    "src": "assets/images/gallery/foto-13.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
+  },
+  {
+    "id": "foto-14",
+    "src": "assets/images/gallery/foto-14.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos-noche"
+  },
+  {
+    "id": "foto-15",
+    "src": "assets/images/gallery/foto-15.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "otros"
+  },
+  {
+    "id": "foto-16",
+    "src": "assets/images/gallery/foto-16.jpg",
+    "alt": "Confección a medida",
+    "title": "Diseño a medida",
+    "category": "vestidos"
   }
 ]
