@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentImageIndex = 0;
   let currentFilteredData = [];
 
+  const ITEMS_PER_PAGE = 6;
+  let visibleCount = ITEMS_PER_PAGE;
+  
+  const loadMoreContainer = document.getElementById('gallery-load-more');
+  const loadMoreBtn = document.getElementById('load-more-btn');
+
   // Categorías hardcodeadas o extraídas de los datos, aquí usamos las del SPEC
   const categories = [
     { id: 'todos', label: 'Todos' },
@@ -40,6 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function initGallery() {
     renderFilters();
     renderGallery('todos');
+    
+    if(loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        visibleCount += ITEMS_PER_PAGE;
+        renderItems();
+      });
+    }
   }
 
   function renderFilters() {
@@ -67,18 +80,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderGallery(category) {
-    galleryGrid.innerHTML = '';
-    
     currentFilteredData = category === 'todos' 
       ? galleryData 
       : galleryData.filter(item => item.category === category);
+      
+    visibleCount = ITEMS_PER_PAGE;
+    renderItems();
+  }
+
+  function renderItems() {
+    galleryGrid.innerHTML = '';
 
     if(currentFilteredData.length === 0) {
       galleryGrid.innerHTML = '<p>No hay imágenes en esta categoría.</p>';
+      if(loadMoreContainer) loadMoreContainer.style.display = 'none';
       return;
     }
 
-    currentFilteredData.forEach((item, index) => {
+    const itemsToShow = currentFilteredData.slice(0, visibleCount);
+
+    itemsToShow.forEach((item, index) => {
       const div = document.createElement('div');
       div.classList.add('gallery-item');
       
@@ -100,6 +121,14 @@ document.addEventListener('DOMContentLoaded', () => {
       
       galleryGrid.appendChild(div);
     });
+
+    if (loadMoreContainer) {
+      if (visibleCount < currentFilteredData.length) {
+        loadMoreContainer.style.display = 'block';
+      } else {
+        loadMoreContainer.style.display = 'none';
+      }
+    }
   }
 
   function openLightbox(index) {
