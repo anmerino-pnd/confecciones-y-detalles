@@ -12,7 +12,8 @@
   --color-border: #E8DDCE;     /* Bordes cálidos */
 
   /* Tipografías */
-  --font-script: 'Great Vibes', cursive;
+  --font-logo: 'Great Vibes', cursive;
+  --font-heading: 'Playfair Display', serif;
   --font-sans: 'Montserrat', sans-serif;
 
   /* Spacing */

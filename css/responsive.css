@@ -16,15 +16,15 @@
   }
 
   .hero-title {
-    font-size: 6rem; /* Aumentar para compensar la letra script */
+    font-size: 7rem; /* Mantener grande porque es la fuente script */
   }
   
   .section-title {
-    font-size: 4.5rem;
+    font-size: 3.5rem; /* Playfair Display normal */
   }
   
   .cta-title {
-    font-size: 5.5rem;
+    font-size: 4rem; /* Playfair Display normal */
   }
 
   .hero-actions {
@@ -85,15 +85,15 @@
   }
   
   .hero-title {
-    font-size: 4.5rem;
+    font-size: 5rem;
   }
   
   .section-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   
   .cta-title {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   
   .footer-links {

@@ -19,11 +19,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6, .logo {
-  font-family: var(--font-script);
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.2;
   color: var(--color-primary);
+}
+
+.logo, .logo-font {
+  font-family: var(--font-logo);
+  font-weight: 400;
+  color: var(--color-primary);
+  line-height: 1.1;
 }
 
 p {
