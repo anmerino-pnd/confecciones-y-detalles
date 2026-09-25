@@ -120,18 +120,17 @@
         <div class="gallery-header text-center">
           <h2 class="section-title">Catálogo</h2>
           <div class="decorative-line"></div>
+          <p class="section-text mx-auto" style="max-width: 600px; margin-bottom: 3rem;">Una cuidada selección de nuestras confecciones. Explora nuestro portafolio completo en el álbum interactivo.</p>
         </div>
         
-        <div class="gallery-filters" id="gallery-filters">
-          <!-- Filtros generados por JS -->
-        </div>
-        <div class="gallery-grid" id="gallery-grid">
+        <!-- Preview Grid: Solo 6 fotos -->
+        <div class="gallery-grid" id="gallery-preview-grid">
           <!-- Imágenes generadas por JS -->
         </div>
         
-        <!-- Contenedor para el botón de Ver Más -->
-        <div class="gallery-load-more text-center" id="gallery-load-more" style="display: none; margin-top: 3rem;">
-          <button class="btn btn-outline" id="load-more-btn">Cargar más diseños</button>
+        <!-- Botón para abrir el álbum completo -->
+        <div class="gallery-load-more text-center" style="margin-top: 3rem;">
+          <button class="btn btn-primary" id="open-album-btn">Abrir Álbum Completo</button>
         </div>
       </div>
     </section>
@@ -158,6 +157,25 @@
     </section>
 
   </main>
+
+  <!-- Álbum Completo (Pantalla Completa) -->
+  <div id="album-modal" class="album-modal">
+    <div class="album-modal-header">
+      <h2 class="album-title logo-font">Catálogo Completo</h2>
+      <button class="album-close" aria-label="Cerrar Álbum">&times;</button>
+    </div>
+    <div class="container">
+      <div class="gallery-filters" id="album-filters">
+        <!-- Filtros generados por JS -->
+      </div>
+      <div class="gallery-grid" id="album-grid">
+        <!-- Imágenes del álbum generadas por JS -->
+      </div>
+      <div class="gallery-load-more text-center" id="album-load-more" style="display: none; margin-top: 3rem; padding-bottom: 5rem;">
+        <button class="btn btn-outline" id="album-load-more-btn">Cargar más diseños</button>
+      </div>
+    </div>
+  </div>
 
   <footer class="footer">
     <div class="container footer-container text-center">
