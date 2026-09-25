@@ -197,29 +197,59 @@
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: var(--spacing-sm);
+  column-count: 3;
+  column-gap: var(--spacing-sm);
 }
 
 .gallery-item {
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  aspect-ratio: 3/4;
   border-radius: var(--radius-img);
   background-color: var(--color-surface);
+  margin-bottom: var(--spacing-sm);
+  break-inside: avoid;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition-normal);
+  display: block;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter var(--transition-normal), transform var(--transition-normal);
 }
 
 .gallery-item:hover img {
   transform: scale(1.05);
+  filter: grayscale(0%);
+}
+
+.gallery-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 1rem 1rem 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+  color: var(--color-white);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: flex-end;
+}
+
+.gallery-overlay h3 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0;
+  color: var(--color-white);
+}
+
+.gallery-item:hover .gallery-overlay {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Lightbox */

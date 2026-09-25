@@ -87,7 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
       img.alt = item.alt;
       img.loading = 'lazy';
       
+      const overlay = document.createElement('div');
+      overlay.classList.add('gallery-overlay');
+      const title = document.createElement('h3');
+      title.textContent = item.title;
+      overlay.appendChild(title);
+      
       div.appendChild(img);
+      div.appendChild(overlay);
       
       div.addEventListener('click', () => openLightbox(index));
       
