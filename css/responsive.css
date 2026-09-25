@@ -1,11 +1,10 @@
 /* Responsive Breakpoints */
 @media (min-width: 768px) {
   .hero-container {
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 5rem;
   }
 
-  /* Para alternar orden en escritorio (Texto izquierda, Foto derecha en Hero, pero Foto Izquierda, Texto Derecha en About) */
   .about-container {
     grid-template-columns: 1fr 1.2fr;
     gap: 6rem;
@@ -13,33 +12,24 @@
 
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3rem;
   }
 
   .hero-title {
-    font-size: 5rem;
+    font-size: 6rem; /* Aumentar para compensar la letra script */
   }
   
   .section-title {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
   
   .cta-title {
     font-size: 5.5rem;
   }
 
-  .footer-container {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-  }
-  
-  .footer-links {
-    text-align: right;
-  }
-
   .hero-actions {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
 
@@ -54,7 +44,7 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgba(253, 251, 247, 0.98);
+    background-color: rgba(247, 244, 240, 0.98);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--color-border);
     padding: var(--spacing-sm) 0;
@@ -68,11 +58,6 @@
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
-  }
-
-  .btn-nav {
-    border: none;
-    padding: 0;
   }
 
   .gallery-filters {
@@ -100,14 +85,25 @@
   }
   
   .hero-title {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
   }
   
   .section-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   
   .cta-title {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-separator {
+    display: none;
   }
 }

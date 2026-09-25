@@ -1,30 +1,32 @@
 :root {
-  /* Paleta Editorial / Atelier (Minimalista, Alto Contraste) */
-  --color-background: #FDFBF7; /* Off-white cálido, como papel fino */
-  --color-surface: #F4EFEA;    /* Beige muy sutil para destacar secciones */
-  --color-text: #1A1817;       /* Casi negro, máxima legibilidad y elegancia */
-  --color-text-light: #59534E; /* Gris oscuro para textos secundarios */
+  /* Paleta "Atelier Fleur" (Crema y Borgoña/Vino) */
+  --color-background: #F7F4F0; /* Crema suave del fondo */
+  --color-surface: #F0EAE3;    /* Un tono ligeramente más oscuro para contrastes sutiles */
+  --color-primary: #7A282F;    /* Rojo vino / Borgoña profundo para títulos y botones */
+  --color-primary-hover: #5A1D22;
+  --color-text-light: #9B767A; /* Malva/Rosado apagado para textos secundarios */
+  --color-text: #4A2B2E;       /* Texto oscuro pero con tinte cálido */
   
-  --color-primary: #1A1817;    /* Botones y acentos oscuros (estilo fashion) */
-  --color-secondary: #8C8074;  /* Taupe cálido para detalles finos */
+  --color-accent: #DBCDB4;     /* Detalles en dorado/beige suave */
   --color-white: #FFFFFF;
-  --color-border: #E8E2DA;     /* Bordes delicados */
+  --color-border: #E8DDCE;     /* Bordes cálidos */
 
   /* Tipografías */
-  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
-  --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+  --font-script: 'Great Vibes', cursive;
+  --font-sans: 'Montserrat', sans-serif;
 
   /* Spacing */
   --spacing-xs: 0.5rem;
   --spacing-sm: 1.5rem;
   --spacing-md: 3rem;
   --spacing-lg: 5rem;
-  --spacing-xl: 8rem;
+  --spacing-xl: 7rem;
 
-  /* Bordes y sombras (sin esquinas redondeadas para look high-end) */
-  --radius: 0px; 
-  --shadow-sm: 0 4px 12px rgba(0,0,0,0.03);
-  --shadow-md: 0 10px 30px rgba(0,0,0,0.06);
+  /* Bordes (Botones en forma de píldora redonda) */
+  --radius: 50px; 
+  --radius-img: 10px;
+  --shadow-sm: 0 4px 15px rgba(122, 40, 47, 0.05);
+  --shadow-md: 0 10px 30px rgba(122, 40, 47, 0.1);
 
   /* Transiciones */
   --transition-fast: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
