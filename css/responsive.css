@@ -12,7 +12,7 @@
 
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3.5rem;
   }
 
   .hero-title {
@@ -58,11 +58,15 @@
   }
 
   .footer-logo-mark {
-    height: 6.2rem;
+    height: 9.5rem;
   }
 
   .cta-monogram {
     height: 6.5rem;
+  }
+
+  .album-header-monogram {
+    height: 3.8rem;
   }
 
   .menu-toggle {
@@ -185,7 +189,7 @@
   }
 
   .album-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .lightbox-details {

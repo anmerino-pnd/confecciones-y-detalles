@@ -18,7 +18,6 @@
 
 .logo-mark path {
   fill: currentColor;
-  stroke: currentColor;
 }
 
 .header-logo-mark {
@@ -30,8 +29,8 @@
 }
 
 .footer-logo-mark {
-  height: 7.5rem;
-  margin: 0 auto 0.75rem auto;
+  height: 12rem;
+  margin: 0 auto 1rem auto;
   color: var(--color-primary);
 }
 
@@ -251,170 +250,43 @@
   color: var(--color-text);
 }
 
-/* Services (Tarjetas Editoriales de Especialidades) */
-.services {
-  background-color: var(--color-surface);
-  border-top: 1px solid var(--color-border);
-  border-bottom: 1px solid var(--color-border);
-}
-
+/* Services (Especialidades — Minimalista y Elegante) */
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
-  align-items: stretch;
+  gap: 2.5rem;
 }
 
 .service-category {
-  background-color: var(--color-background);
-  border: 1px solid var(--color-border);
-  border-radius: 16px;
-  padding: 2.25rem 2rem 1.85rem 2rem;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: var(--shadow-sm);
-  transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
-}
-
-.service-category::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
-  opacity: 0.45;
-  transition: opacity var(--transition-fast), height var(--transition-fast);
-}
-
-.service-category-featured {
-  border-color: var(--color-accent);
-  box-shadow: var(--shadow-md);
-}
-
-.service-category-featured::before {
-  opacity: 0.9;
-  height: 4px;
-}
-
-.service-category:hover {
-  transform: translateY(-6px);
-  box-shadow: var(--shadow-md);
-  border-color: var(--color-accent);
-}
-
-.service-category:hover::before {
-  opacity: 1;
-}
-
-.service-card-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1.35rem;
-}
-
-.service-icon-badge {
-  width: 76px;
-  height: 76px;
-  flex-shrink: 0;
-  transition: transform var(--transition-fast);
-}
-
-.service-category:hover .service-icon-badge {
-  transform: scale(1.06) rotate(-2deg);
-}
-
-.service-svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.service-number {
-  font-family: var(--font-heading);
-  font-style: italic;
-  font-size: 2.6rem;
-  line-height: 1;
-  color: var(--color-primary);
-  opacity: 0.18;
-  user-select: none;
-  transition: opacity var(--transition-fast), transform var(--transition-fast);
-}
-
-.service-category:hover .service-number {
-  opacity: 0.35;
-  transform: translateX(-2px);
+  padding: 0.5rem 0;
 }
 
 .service-category-title {
-  font-size: 1.6rem;
-  margin-bottom: 1.25rem;
+  font-size: 1.75rem;
+  font-weight: 400;
+  margin-bottom: 1.35rem;
   color: var(--color-primary);
-  letter-spacing: 0.01em;
-}
-
-.service-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  margin-bottom: 1.6rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--color-border);
 }
 
 .service-list li {
-  background-color: rgba(240, 234, 227, 0.65);
-  border: 1px solid rgba(232, 221, 206, 0.75);
-  border-radius: 8px;
-  padding: 0.65rem 0.95rem 0.65rem 2rem;
+  padding-left: 1.35rem;
   position: relative;
-  font-size: 0.94rem;
-  font-weight: 400;
+  margin-bottom: 0.85rem;
+  font-size: 1.02rem;
+  line-height: 1.65;
   color: var(--color-text);
-  transition: background-color var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast);
-}
-
-.service-list li:hover {
-  background-color: var(--color-surface);
-  border-color: var(--color-accent);
-  transform: translateX(3px);
 }
 
 .service-list li::before {
-  content: '✦';
+  content: '·';
   color: var(--color-primary);
   position: absolute;
-  left: 0.75rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.65rem;
-  opacity: 0.75;
-}
-
-.service-card-footer {
-  margin-top: auto;
-  padding-top: 1rem;
-  border-top: 1px dashed var(--color-border);
-}
-
-.service-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.76rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--color-primary);
-  transition: gap var(--transition-fast), color var(--transition-fast);
-}
-
-.service-link:hover {
-  gap: 0.75rem;
-  color: var(--color-primary-hover);
-  opacity: 1;
+  left: 0;
+  font-size: 1.8rem;
+  line-height: 1rem;
+  top: 0.35rem;
 }
 
 /* CTA Section */
@@ -612,17 +484,20 @@
 .album-modal-brand {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 1.15rem;
 }
 
 .album-header-monogram {
-  height: 2.5rem;
+  height: 5rem;
   color: var(--color-primary);
 }
 
 .album-title {
-  font-size: 2.6rem;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  font-size: 2.1rem;
   margin: 0;
+  color: var(--color-primary);
 }
 
 .album-close {
