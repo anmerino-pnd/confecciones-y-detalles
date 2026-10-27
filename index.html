@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Confecciones y Detalles | Hermosillo, Sonora</title>
-  <meta name="description" content="Confecciones, arreglos y modificaciones de prendas en Hermosillo, Sonora.">
+  <title>Confecciones y Detalles | Estudio de Costura en Hermosillo, Sonora</title>
+  <meta name="description" content="Confección a medida, vestidos de gala, arreglos y ajustes de prendas con acabado impecable en Hermosillo, Sonora. Desde 2016.">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Fuentes: Great Vibes (Script elegante) y Montserrat (Sans-serif limpia y moderna) -->
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <!-- Fuentes: Great Vibes (Script elegante), Playfair Display (Serif editorial) y Montserrat (Sans-serif limpia) -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
   
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/icons/favicon.png">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
@@ -21,13 +23,15 @@
 
   <header class="header">
     <div class="container header-container">
-      <a href="#inicio" class="logo">Confecciones y Detalles</a>
+      <a href="#inicio" class="logo" aria-label="Confecciones y Detalles — Ir al inicio">
+        <img src="assets/icons/design sketch.svg" alt="Confecciones y Detalles" class="logo-mark header-logo-mark">
+      </a>
       
-      <button class="menu-toggle" aria-label="Abrir menú" id="menu-toggle">
+      <button class="menu-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-nav" id="menu-toggle">
         <span class="hamburger"></span>
       </button>
 
-      <nav class="nav" id="main-nav">
+      <nav class="nav" id="main-nav" aria-label="Navegación principal">
         <ul class="nav-list">
           <li><a href="#especialidades" class="nav-link">Especialidades</a></li>
           <li><a href="#historia" class="nav-link">Historia</a></li>
@@ -43,16 +47,18 @@
     <section id="inicio" class="hero">
       <div class="container hero-container">
         <div class="hero-content">
+          <p class="hero-eyebrow">Estudio de costura en Hermosillo · Desde 2016</p>
           <h1 class="hero-title logo-font">Confecciones y Detalles</h1>
-          <p class="hero-subtitle">Prendas y ajustes que hablan de ti<br>mejor que las palabras.</p>
+          <p class="hero-subtitle">Prendas a medida y ajustes precisos que respetan<br>la estructura y caída natural de cada tela.</p>
           <div class="hero-actions">
-            <a href="#" class="btn btn-primary whatsapp-btn">Agendar cita</a>
-            <a href="#catalogo" class="btn btn-outline">Ver catálogo</a>
+            <a href="#" class="btn btn-primary whatsapp-btn" data-whatsapp-msg="Hola, encontré Confecciones y Detalles en su página web y me gustaría agendar una cita o cotizar un trabajo.">Agendar por WhatsApp</a>
+            <a href="#catalogo" class="btn btn-outline">Ver portafolio</a>
           </div>
         </div>
         <div class="hero-image">
-          <div class="image-placeholder">
-            <span>Fotografía elegante de prendas</span>
+          <div class="image-placeholder atelier-placeholder">
+            <img src="assets/icons/design sketch.svg" alt="" class="logo-mark placeholder-sketch" aria-hidden="true">
+            <span class="placeholder-caption">Espacio reservado para fotografía principal de prendas</span>
           </div>
         </div>
       </div>
@@ -61,6 +67,7 @@
     <section id="especialidades" class="services">
       <div class="container services-container">
         <div class="services-header text-center">
+          <p class="section-eyebrow">Nuestros Servicios</p>
           <h2 class="section-title">Especialidades</h2>
           <div class="decorative-line"></div>
         </div>
@@ -71,7 +78,7 @@
             <ul class="service-list">
               <li>Bastillas precisas</li>
               <li>Ajustes y reducción de tallas</li>
-              <li>Parches invisibles</li>
+              <li>Parches y zurcido (sumestichado)</li>
               <li>Cambio de cierres</li>
               <li>Modificaciones de estructura</li>
             </ul>
@@ -79,10 +86,11 @@
           <div class="service-category">
             <h3 class="service-category-title">Confección a Medida</h3>
             <ul class="service-list">
+              <li>Vestidos de noche y gala</li>
+              <li>Vestidos casuales</li>
               <li>Blusas y camisas</li>
               <li>Pantalones sastre</li>
-              <li>Vestidos casuales</li>
-              <li>Vestidos de noche (sumestichado)</li>
+              <li>Conjuntos personalizados</li>
             </ul>
           </div>
           <div class="service-category">
@@ -91,7 +99,7 @@
               <li>Vestidos de XV años</li>
               <li>Vestidos para Damas</li>
               <li>Vestidos de Novia</li>
-              <li>Eventos de gala</li>
+              <li>Ajustes finos de alta costura</li>
             </ul>
           </div>
         </div>
@@ -101,15 +109,17 @@
     <section id="historia" class="about">
       <div class="container about-container">
         <div class="about-image">
-           <div class="image-placeholder portrait">
-            <span>Fotografía del atelier</span>
+          <div class="image-placeholder portrait atelier-placeholder">
+            <img src="assets/icons/cnd.svg" alt="" class="logo-mark placeholder-monogram" aria-hidden="true">
+            <span class="placeholder-caption">Espacio reservado para fotografía del atelier</span>
           </div>
         </div>
         <div class="about-content">
-          <h2 class="section-title">Haciendo realidad cada detalle</h2>
+          <p class="section-eyebrow">Nuestra Trayectoria</p>
+          <h2 class="section-title">Desde 2016, haciendo realidad cada detalle</h2>
           <div class="decorative-line left"></div>
           <p class="section-text">
-            Comenzamos en 2015 con un objetivo claro: brindar a cada cliente la prenda perfecta con un ajuste impecable. Nuestra experiencia y dedicación aseguran acabados de alta calidad en cada costura, respetando la estructura y caída natural de la tela.
+            Comenzamos en 2016 con un objetivo claro: brindar a cada clienta y cliente la prenda perfecta con un ajuste impecable. Desde pequeños arreglos cotidianos hasta vestidos de gala confeccionados desde cero, trabajamos cada costura con dedicación artesanal.
           </p>
         </div>
       </div>
@@ -118,18 +128,22 @@
     <section id="catalogo" class="gallery">
       <div class="container gallery-container">
         <div class="gallery-header text-center">
-          <h2 class="section-title">Catálogo</h2>
+          <p class="section-eyebrow">Portafolio de Trabajos Reales</p>
+          <h2 class="section-title">Catálogo de Confecciones</h2>
           <div class="decorative-line"></div>
-          <p class="section-text mx-auto" style="max-width: 600px; margin-bottom: 3rem;">Una cuidada selección de nuestras confecciones. Explora nuestro portafolio completo en el álbum interactivo.</p>
+          <p class="section-text mx-auto gallery-intro">
+            Una selección destacada de vestidos y prendas realizadas en nuestro taller. Haz clic en cualquier diseño para verlo en detalle o explora el álbum completo.
+          </p>
         </div>
         
-        <!-- Preview Grid: Solo 6 fotos -->
-        <div class="gallery-grid" id="gallery-preview-grid">
-          <!-- Imágenes generadas por JS -->
+        <!-- Portada Lookbook Editorial: 6 confecciones destacadas -->
+        <div class="gallery-preview-grid" id="gallery-preview-grid">
+          <!-- Imágenes destacadas generadas por JS -->
         </div>
         
-        <!-- Botón para abrir el álbum completo -->
-        <div class="gallery-load-more text-center" style="margin-top: 3rem;">
+        <!-- Invitación al Álbum Completo -->
+        <div class="gallery-load-more text-center">
+          <p class="gallery-cta-hint" id="gallery-total-hint">Descubre todas las prendas de nuestro portafolio</p>
           <button class="btn btn-primary" id="open-album-btn">Abrir Álbum Completo</button>
         </div>
       </div>
@@ -137,42 +151,48 @@
 
     <section id="ubicacion" class="location">
       <div class="container location-container text-center">
-        <h2 class="section-title">Encuéntranos</h2>
+        <p class="section-eyebrow">Visítanos</p>
+        <h2 class="section-title">Encuéntranos en Hermosillo</h2>
         <div class="decorative-line"></div>
         <p class="location-address">
-          Hermosillo, Sonora<br>México
+          Hermosillo, Sonora, México
         </p>
         <div class="location-actions">
-           <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="map-btn">Ver en Google Maps</a>
+          <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="map-btn">Cómo llegar en Google Maps</a>
         </div>
       </div>
     </section>
 
     <section id="contacto" class="cta">
       <div class="container cta-container text-center">
-        <h2 class="cta-title">Contacto</h2>
-        <p class="hero-subtitle" style="margin-bottom: 2rem;">Escríbenos para platicar sobre tu proyecto.</p>
-        <a href="#" class="btn btn-primary whatsapp-btn">Contactar por WhatsApp</a>
+        <img src="assets/icons/cnd.svg" alt="" class="logo-mark cta-monogram" aria-hidden="true">
+        <h2 class="cta-title">¿Tienes una prenda o idea en mente?</h2>
+        <p class="hero-subtitle cta-subtitle">Escríbenos por WhatsApp para platicar sobre el arreglo o confección que necesitas.</p>
+        <a href="#" class="btn btn-primary whatsapp-btn" data-whatsapp-msg="Hola, vi su página web de Confecciones y Detalles y me gustaría consultar sobre una prenda.">Escribir por WhatsApp</a>
       </div>
     </section>
 
   </main>
 
-  <!-- Álbum Completo (Pantalla Completa) -->
-  <div id="album-modal" class="album-modal">
+  <!-- Álbum Completo (Pantalla Completa con Scroll Infinito) -->
+  <div id="album-modal" class="album-modal" role="dialog" aria-modal="true" aria-labelledby="album-modal-title">
     <div class="album-modal-header">
-      <h2 class="album-title logo-font">Catálogo Completo</h2>
+      <div class="album-modal-brand">
+        <img src="assets/icons/cnd.svg" alt="" class="logo-mark album-header-monogram" aria-hidden="true">
+        <h2 class="album-title logo-font" id="album-modal-title">Catálogo Completo</h2>
+      </div>
       <button class="album-close" aria-label="Cerrar Álbum">&times;</button>
     </div>
-    <div class="container">
-      <div class="gallery-filters" id="album-filters">
-        <!-- Filtros generados por JS -->
+    <div class="container album-modal-body">
+      <div class="gallery-filters" id="album-filters" role="tablist" aria-label="Filtrar por categoría">
+        <!-- Filtros con contador generados por JS -->
       </div>
-      <div class="gallery-grid" id="album-grid">
-        <!-- Imágenes del álbum generadas por JS -->
+      <div class="album-grid" id="album-grid">
+        <!-- Imágenes del álbum cargadas progresivamente al bajar -->
       </div>
-      <div class="gallery-load-more text-center" id="album-load-more" style="display: none; margin-top: 3rem; padding-bottom: 5rem;">
-        <button class="btn btn-outline" id="album-load-more-btn">Cargar más diseños</button>
+      <div class="album-scroll-footer text-center" id="album-scroll-footer">
+        <p class="album-progress-text" id="album-progress-text"></p>
+        <div id="album-scroll-sentinel" class="album-scroll-sentinel" aria-hidden="true"></div>
       </div>
     </div>
   </div>
@@ -180,14 +200,15 @@
   <footer class="footer">
     <div class="container footer-container text-center">
       <div class="footer-brand">
+        <img src="assets/icons/design sketch.svg" alt="" class="logo-mark footer-logo-mark" aria-hidden="true">
         <p class="footer-logo logo-font">Confecciones y Detalles</p>
         <div class="decorative-line"></div>
-        <p class="footer-meta">Estudio de confección y arreglos.<br>Hermosillo, Sonora.</p>
+        <p class="footer-meta">Estudio de confección y arreglos desde 2016.<br>Hermosillo, Sonora.</p>
       </div>
       <div class="footer-links">
         <a href="#" class="footer-link whatsapp-btn">WhatsApp</a>
         <span class="footer-separator">•</span>
-        <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" class="footer-link">Ubicación</a>
+        <a href="https://share.google/x0x8HIBFr8nnYhaQP" target="_blank" rel="noopener noreferrer" class="footer-link">Ubicación en Google Maps</a>
       </div>
     </div>
     <div class="container footer-bottom">
@@ -195,13 +216,22 @@
     </div>
   </footer>
 
-  <div id="lightbox" class="lightbox">
-    <button class="lightbox-close" aria-label="Cerrar">&times;</button>
-    <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+  <!-- Lightbox con contexto y consulta directa -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de prenda">
+    <button class="lightbox-close" aria-label="Cerrar vista ampliada">&times;</button>
+    <button class="lightbox-prev" aria-label="Diseño anterior">&#10094;</button>
     <div class="lightbox-content">
       <img id="lightbox-img" src="" alt="Imagen ampliada">
+      <div class="lightbox-details">
+        <div class="lightbox-meta">
+          <span class="lightbox-category" id="lightbox-category"></span>
+          <h3 class="lightbox-title" id="lightbox-title"></h3>
+          <span class="lightbox-counter" id="lightbox-counter"></span>
+        </div>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" id="lightbox-whatsapp-btn">Cotizar algo similar</a>
+      </div>
     </div>
-    <button class="lightbox-next" aria-label="Siguiente">&#10095;</button>
+    <button class="lightbox-next" aria-label="Siguiente diseño">&#10095;</button>
   </div>
 
   <script src="js/config.js"></script>

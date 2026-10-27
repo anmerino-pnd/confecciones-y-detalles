@@ -6,7 +6,7 @@
 
 Crear un sitio web estático, moderno, elegante y cálido para
 **Confecciones y Detalles**, negocio de costura ubicado en Hermosillo,
-Sonora y activo desde **2015**.
+Sonora y activo desde **2016**.
 
 El sitio será administrado técnicamente por el propietario de este
 repositorio y publicado mediante **GitHub Pages**.
@@ -18,7 +18,7 @@ sitio debe funcionar como:
 2. Catálogo navegable de trabajos por categorías.
 3. Presentación profesional del negocio.
 4. Punto de contacto para clientes potenciales.
-5. Evidencia de experiencia y trayectoria desde 2015.
+5. Evidencia de experiencia y trayectoria desde 2016.
 6. Canal para dirigir al cliente a WhatsApp.
 7. Base escalable para incorporar progresivamente más fotografías y
    trabajos.
@@ -256,7 +256,7 @@ Debe presentar inmediatamente:
 CONFECCIONES Y DETALLES
 
 Trabajo de confección y arreglos
-hecho con dedicación desde 2015.
+hecho con dedicación desde 2016.
 
 [ Ver nuestro trabajo ]
 [ WhatsApp ]
@@ -401,11 +401,11 @@ interminable.
 
 Título:
 
-> Desde 2015, haciendo realidad cada detalle.
+> Desde 2016, haciendo realidad cada detalle.
 
 Contenido:
 
-Confecciones y Detalles comenzó en 2015.
+Confecciones y Detalles comenzó en 2016.
 
 La sección debe comunicar experiencia y permanencia, pero sin inventar
 una historia adicional.
@@ -1364,7 +1364,7 @@ Evitar:
 
 Preferir:
 
-> "Desde 2015, ayudamos a darles el ajuste, arreglo o acabado que cada
+> "Desde 2016, ayudamos a darles el ajuste, arreglo o acabado que cada
 > prenda necesita."
 
 Evitar exageraciones.
@@ -1404,7 +1404,7 @@ a menos que exista una razón real y verificable para afirmarlo.
   </section>
 
   <section id="nosotros">
-    <!-- Desde 2015 -->
+    <!-- Desde 2016 -->
   </section>
 
   <section id="galeria">
@@ -1498,7 +1498,7 @@ La primera versión se considera terminada cuando:
 - [x] Es responsive.
 - [x] No existen emojis en la interfaz.
 - [x] El negocio se entiende en los primeros segundos.
-- [x] Se comunica que existe desde 2015.
+- [x] Se comunica que existe desde 2016.
 - [x] Los servicios principales son claros.
 - [x] Existe una galería funcional.
 - [x] La galería tiene filtros.
@@ -1563,7 +1563,7 @@ Debe hacer algo más sencillo:
           ↓
 "Así se ve nuestro trabajo."
           ↓
-"Tenemos experiencia desde 2015."
+"Tenemos experiencia desde 2016."
           ↓
 "Estamos en Hermosillo."
           ↓

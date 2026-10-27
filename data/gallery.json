@@ -1,114 +1,136 @@
 [
   {
-    "id": "foto-01",
-    "src": "assets/images/gallery/foto-01.jpg",
-    "alt": "Vestido de noche strapless color rosa fucsia",
-    "title": "Vestido de Noche Fucsia",
-    "category": "vestidos-noche"
+    "id": "foto-15",
+    "src": "assets/images/gallery/foto-15.jpg",
+    "alt": "Vestido rojo profundo con encaje y hombros descubiertos",
+    "title": "Vestido de Encaje Rojo",
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche",
+    "featured": true
   },
   {
-    "id": "foto-02",
-    "src": "assets/images/gallery/foto-02.jpg",
-    "alt": "Vestido largo verde esmeralda con aplicaciones florales",
-    "title": "Vestido Esmeralda Floral",
-    "category": "vestidos-noche"
+    "id": "foto-09",
+    "src": "assets/images/gallery/foto-09.jpg",
+    "alt": "Vestido strapless verde esmeralda con detalle escultural de moño",
+    "title": "Vestido Esmeralda con Moño",
+    "category": "vestidos-noche",
+    "categoryLabel": "Alta Costura",
+    "featured": true
   },
   {
-    "id": "foto-03",
-    "src": "assets/images/gallery/foto-03.jpg",
-    "alt": "Vestido negro corte sirena elegante",
-    "title": "Vestido Sirena Negro",
-    "category": "vestidos-noche"
-  },
-  {
-    "id": "foto-04",
-    "src": "assets/images/gallery/foto-04.jpg",
-    "alt": "Vestidos color coral para damas",
-    "title": "Vestidos para Damas",
-    "category": "damas"
-  },
-  {
-    "id": "foto-05",
-    "src": "assets/images/gallery/foto-05.jpg",
-    "alt": "Vestido verde oscuro con encaje y transparencias",
-    "title": "Vestido de Noche Verde",
-    "category": "vestidos-noche"
+    "id": "foto-14",
+    "src": "assets/images/gallery/foto-14.jpg",
+    "alt": "Vestido tinto de satín con hombros caídos y abertura en la pierna",
+    "title": "Vestido Tinto de Satín",
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche",
+    "featured": true
   },
   {
     "id": "foto-06",
     "src": "assets/images/gallery/foto-06.jpg",
-    "alt": "Vestido color magenta con mangas de encaje",
-    "title": "Vestido de Noche Magenta",
-    "category": "vestidos-noche"
+    "alt": "Vestido color magenta con mangas de encaje hecho a medida",
+    "title": "Vestido Magenta con Encaje",
+    "category": "vestidos-noche",
+    "categoryLabel": "Confección a Medida",
+    "featured": true
   },
   {
-    "id": "foto-07",
-    "src": "assets/images/gallery/foto-07.jpg",
-    "alt": "Vestido amarillo vibrante corte sirena strapless",
-    "title": "Vestido Sirena Amarillo",
-    "category": "vestidos-noche"
+    "id": "foto-13",
+    "src": "assets/images/gallery/foto-13.jpg",
+    "alt": "Vestido de gala azul marino con falda amplia",
+    "title": "Vestido de Gala Azul Marino",
+    "category": "vestidos-noche",
+    "categoryLabel": "Eventos de Gala",
+    "featured": true
+  },
+  {
+    "id": "foto-16",
+    "src": "assets/images/gallery/foto-16.jpg",
+    "alt": "Conjunto elegante de pantalón blanco y blusa de encaje",
+    "title": "Conjunto Blanco de Encaje",
+    "category": "ropa-casual",
+    "categoryLabel": "Sastrería y Encaje",
+    "featured": true
   },
   {
     "id": "foto-08",
     "src": "assets/images/gallery/foto-08.jpg",
     "alt": "Vestido azul claro con pedrería en el busto",
     "title": "Vestido de Gala Azul",
-    "category": "vestidos-noche"
-  },
-  {
-    "id": "foto-09",
-    "src": "assets/images/gallery/foto-09.jpg",
-    "alt": "Vestido strapless verde bandera con detalle de moño",
-    "title": "Vestido Esmeralda con Moño",
-    "category": "vestidos-noche"
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   },
   {
     "id": "foto-10",
     "src": "assets/images/gallery/foto-10.jpg",
     "alt": "Vestido strapless color rojo oscuro",
     "title": "Vestido de Noche Rojo",
-    "category": "vestidos-noche"
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   },
   {
     "id": "foto-11",
     "src": "assets/images/gallery/foto-11.jpg",
     "alt": "Vestido color vino con escote halter",
     "title": "Vestido de Noche Tinto",
-    "category": "vestidos-noche"
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
+  },
+  {
+    "id": "foto-07",
+    "src": "assets/images/gallery/foto-07.jpg",
+    "alt": "Vestido amarillo vibrante corte sirena strapless",
+    "title": "Vestido Sirena Amarillo",
+    "category": "vestidos-noche",
+    "categoryLabel": "Corte Sirena"
+  },
+  {
+    "id": "foto-04",
+    "src": "assets/images/gallery/foto-04.jpg",
+    "alt": "Vestidos color coral confeccionados para damas",
+    "title": "Vestidos para Damas",
+    "category": "damas",
+    "categoryLabel": "Damas"
+  },
+  {
+    "id": "foto-03",
+    "src": "assets/images/gallery/foto-03.jpg",
+    "alt": "Vestido negro corte sirena elegante con encaje",
+    "title": "Vestido Sirena Negro",
+    "category": "vestidos-noche",
+    "categoryLabel": "Corte Sirena"
   },
   {
     "id": "foto-12",
     "src": "assets/images/gallery/foto-12.jpg",
     "alt": "Vestido elegante estampado en negro y dorado",
     "title": "Vestido Elegante Dorado",
-    "category": "vestidos-noche"
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   },
   {
-    "id": "foto-13",
-    "src": "assets/images/gallery/foto-13.jpg",
-    "alt": "Vestido de gala azul marino con volumen",
-    "title": "Vestido de Gala Azul Marino",
-    "category": "vestidos-noche"
+    "id": "foto-02",
+    "src": "assets/images/gallery/foto-02.jpg",
+    "alt": "Vestido largo verde esmeralda con aplicaciones florales",
+    "title": "Vestido Esmeralda Floral",
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   },
   {
-    "id": "foto-14",
-    "src": "assets/images/gallery/foto-14.jpg",
-    "alt": "Vestido tinto de satín con abertura en la pierna",
-    "title": "Vestido Tinto con Abertura",
-    "category": "vestidos-noche"
+    "id": "foto-01",
+    "src": "assets/images/gallery/foto-01.jpg",
+    "alt": "Vestido de noche strapless color rosa fucsia",
+    "title": "Vestido de Noche Fucsia",
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   },
   {
-    "id": "foto-15",
-    "src": "assets/images/gallery/foto-15.jpg",
-    "alt": "Vestido rojo profundo con encaje hombros descubiertos",
-    "title": "Vestido de Encaje Rojo",
-    "category": "vestidos-noche"
-  },
-  {
-    "id": "foto-16",
-    "src": "assets/images/gallery/foto-16.jpg",
-    "alt": "Conjunto elegante de pantalón blanco y blusa de encaje",
-    "title": "Conjunto Elegante Blanco",
-    "category": "ropa-casual"
+    "id": "foto-05",
+    "src": "assets/images/gallery/foto-05.jpg",
+    "alt": "Vestido verde oscuro con encaje y transparencias",
+    "title": "Vestido de Noche Verde",
+    "category": "vestidos-noche",
+    "categoryLabel": "Vestido de Noche"
   }
 ]
